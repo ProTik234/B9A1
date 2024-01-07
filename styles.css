@@ -1,0 +1,27 @@
+header{
+    max-width: 1600px;
+    margin:0 auto;
+}
+
+.container-banner{
+    max-width: 1320px;
+    max-height: 600px;
+   background-image: url('resources/BannerImage.png');
+   margin: 0 140px;
+}
+.happy {
+    color: white;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+
+}
+.party {
+    color: white;
+text-align:center;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+padding: 177px 344px;
+
+}
