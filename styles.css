@@ -3,13 +3,14 @@ header{
     margin:0 auto;
 }
 
-.container-banner{
+.banner-image{
     width: 1320px;
     height: 600px;
    background-image: url('resources/BannerImage.png');
- 
+
    border-radius: 16px;
-   margin: 0 140px;
+   margin: 0 auto;
+
 
 }
 .happy {
@@ -157,4 +158,142 @@ text-transform: capitalize;
     align-items: center;
     gap: 10px;
 border-radius: 8px;
+}
+.sale {
+    margin-top: 50px;
+    padding-top: 100px;
+padding-left: 460px;
+padding-right: 460px;
+text-align: center;
+}
+.func {
+    color: #070211;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.sale50 {
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.holiday {
+    color: #F00;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.sale-des {
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+.gift {
+    width: 1320px;
+    margin: 120px auto;    
+}
+.best-gift {
+    color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.portfolio {
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.gift-des {
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.image{
+    margin: 50px auto;
+    padding-left: 240px;
+}
+.image img{
+    width: 420px;
+    height: 460px;
+    margin: 24px;
+}
+.submit-form {
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+
+}
+.submit-content {
+    padding-top: 80px;
+padding-left: 400px;
+padding-right: 400px;
+text-align: center;
+}
+.subscribe {
+    color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.sub-des {
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.form {
+    border-radius: 50px;
+background: #FFF;
+width: 395px;
+height: 50px;
+display: flex;
+margin: 0 auto;
+padding-left: 120px;
+}
+.btn {
+    width: 210px;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    border-color: #FFF;
+background: #F00;
+color: #FFF;
+justify-content: space-between;
 }
