@@ -292,8 +292,65 @@ padding-left: 120px;
     width: 210px;
     height: 50px;
     border-radius: 0px 50px 50px 0px;
-    border-color: #FFF;
+    border-color: red;
 background: #F00;
 color: #FFF;
 justify-content: space-between;
+}
+.address-main {
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+
+    background-color: #070211;
+}
+.address {
+    padding-top: 120px;
+    padding-left: 140px;
+    color: #FFF;
+}
+.web-phone {
+    padding-top: 120px;
+    padding-right: 275px;
+    color: #FFF;
+}
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.call img {
+    padding-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+.website {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.website img{
+    margin: 10px;
+    width: 24px;
+    height: 24px;
+}
+.social-links {
+    padding-top: 50px;
+    padding-left: 640px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.social-links a img{
+    margin: 50px;
+}
+.legal-sub {
+    padding-top: 120px;
+    padding-left: 140px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+
 }
